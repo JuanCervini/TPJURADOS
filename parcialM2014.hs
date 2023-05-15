@@ -51,8 +51,8 @@ esJoven jugador = edad jugador < 27
 
 nombresFiguritasDificiles equipo jugadores = map nombreJugador $ filter esFiguritaDificil (jugadores equipo)
 
-esFiguritaDificil :: Jugador -> Bool
-esFiguritaDificil jugador = esFigura jugador && esJoven jugador && not (esFarandulero jugador)
+--esFiguritaDificil :: Jugador -> Bool
+--esFiguritaDificil jugador = esFigura jugador && esJoven jugador && not (esFarandulero jugador)
 
 
 
